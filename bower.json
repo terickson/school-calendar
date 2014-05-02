@@ -12,6 +12,7 @@
     "angular-sanitize": "1.2.15",
     "angular-route": "1.2.15",
     "angular-ui-calendar": "~0.8",
+    "angular-bootstrap": "~0.11",
     "font-awesome": "~4.0"
   },
   "devDependencies": {

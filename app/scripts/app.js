@@ -5,13 +5,19 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'ui.calendar', 
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'main/main.html',
         controller: 'MainCtrl'
+      })
+      .when('/calendar', {
+        templateUrl: 'calendar/calendar.html',
+        controller: 'CalendarCtrl'
       })
       .otherwise({
         redirectTo: '/'
